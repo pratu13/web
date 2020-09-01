@@ -1,19 +1,5 @@
 .gradient {
     background-image: linear-gradient(to bottom,#8acdeaff,#ebd3deff,#ede6f2ff);
-    /* background-size: 400%; */
-    animation: bg-animation 5s infinite alternate;
-}
-
-@keyframes bg-animation {
-    0% {
-        background-position: left;
-    }
-    50% {
-        background-position: left;
-    }
-    100% {
-        background-position: right;
-    }
 }
 
 .header-image {
@@ -198,7 +184,7 @@ div {
     margin-top: -170px;
     background-image: url(../images/1.jpeg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
 }
 
@@ -206,7 +192,7 @@ div {
     margin-top: -170px;
     background-image: url(../images/2.jpeg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
 }
 
@@ -214,7 +200,7 @@ div {
 .case-item-about-me5 {
     background-image: url(../images/5.jpeg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
 }
 
