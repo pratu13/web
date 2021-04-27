@@ -230,6 +230,16 @@ div {
     transition: all 0.2s ease-in-out;
 }
 
+.case-item-about-personal3 {
+    background-color: #50D8D7;
+    transition: all 0.2s ease-in-out;
+}
+
+.case-item-about-personal3:hover {
+    border-radius: 100px;
+    transform: scale(0.9);
+}
+
 .case-item-about-me1 .grid-item-bg {
     background-position: center bottom;
     background-repeat: no-repeat;
