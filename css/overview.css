@@ -2,10 +2,11 @@
     background-image: linear-gradient(to bottom,#8acdeaff,#ebd3deff,#ede6f2ff);
 }
 
+/* nav bar */
+
 .header-image {
     float: left;
     width: 30%;
-    line-height: 100px;
 }
 
 .avatar {
@@ -32,7 +33,7 @@ header {
 nav {
     float: left;
     padding-left: 400px;
-    line-height: 100px;
+    line-height: 100px; 
 }
 
 nav a {
@@ -43,6 +44,7 @@ nav a {
     margin: 0 20px;
     color: #45536F;
     transition: all 0.2s ease-in-out;
+    display: inline;
 }
 
 nav a.active {
@@ -52,6 +54,9 @@ nav a.active {
 nav a:hover {
     color: #ffffff;
 }
+
+/* nav bar end */
+
 
 .section {
     width: 1280px;
@@ -144,20 +149,6 @@ div {
     border-radius: 00px;
 }
 
-.grid-item-about-personal {
-    color: #fff;
-    background-color: #e3b5c7;
-    padding-bottom: 100px;
-    /* margin-top: 150px; */
-    transition: all 0.2s ease-in-out;
-    border-radius: 00px;
-}
-
-.grid-item-about-personal:hover{
-    border-radius: 100px;
-    transform: scale(0.9);
-}
-
 .ml3 {
     font-weight: 900;
     font-size: 3.5em;
@@ -204,58 +195,9 @@ div {
     background-size: cover;
 }
 
-.case-item-about-personal1 {
-    /* background-color: #b68cb8; */
-    display: inline-block;
-    background-image: url("../images/nav.svg") ;
-    background-size: cover;
-    background-attachment: fixed;
-    object-fit: contain;
-    transition: all 0.2s ease-in-out;
-}
-
-
-.case-item-about-personal1:hover {
-    border-radius: 100px;
-    transform: scale(0.9);
-}
-
-.case-item-about-personal2:hover {
-    border-radius: 100px;
-    transform: scale(0.9);
-}
-
-.case-item-about-personal2 {
-    background-color: #b8336a;
-    transition: all 0.2s ease-in-out;
-}
-
-.case-item-about-personal3 {
-    background-color: #50D8D7;
-    transition: all 0.2s ease-in-out;
-}
-
-.case-item-about-personal3:hover {
-    border-radius: 100px;
-    transform: scale(0.9);
-}
-
 .case-item-about-me1 .grid-item-bg {
     background-position: center bottom;
     background-repeat: no-repeat;
-}
-
-.case-item-about-work1 {
-    background-color: #927ba3;
-    
-}
-
-.case-item-about-work2 {
-    background-color: #dee2ff;
-}
-
-.case-item-about-work3 {
-    background-color: #9f98c3;
 }
 
 .bottom-gradient {
@@ -455,14 +397,6 @@ h2 {
     background-color:rgba(255, 255, 255, 0.3);
 }
 
-.tagText {
-    width: 200px;
-    height: 36px;
-    justify-content: center;
-    font-size: 25px;
-    background-color: black;
-}
-
 @keyframes text-animation {
     0% {
         color:#5A83AF;
@@ -503,6 +437,8 @@ h2 {
     }
 }
 
+/* All media queries */
+
 @media (min-width: 992px) {
     #title .left-cloud {
         left: 2em;
@@ -511,16 +447,24 @@ h2 {
 }
 
 @media (min-width: 992px) {
-#title .right-cloud {
-    right: 2em;
-    top: 6em;
-}
+    #title .right-cloud {
+        right: 2em;
+        top: 6em;
+    }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 955px) {
     nav {
         padding-left: 0px;
-        margin-left: -200px;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    nav {
+        padding-left: 0px;
+        /* margin-left: -100px; */
+        display: flex;
+        flex-direction: column;
     }
 
     nav a {
@@ -529,6 +473,11 @@ h2 {
         margin: 0 20px;
         color: #45536F;
         line-height: 30px;
+
+    }
+
+    .section-header {
+        font-size: 120px;
     }
 
     .avatar {
@@ -538,4 +487,97 @@ h2 {
         margin-left: 5vh;
         transform: scale(0.7,0.7);
     }
+    
+    .grid-items {
+        display: flex;
+        flex-flow: column wrap;
+    }
 }
+
+
+/* ALL GRID ITEMS WORK SECTION*/
+
+.case-item-about-work1 {
+    background-color: #7A5777;
+}
+
+.case-item-about-work2 {
+    background-color: #8CABBE;
+}
+
+.case-item-about-personal {
+    background-color: #C19AB7;
+    transition: all 0.2s ease-in-out;
+}
+
+.case-item-about-personal:hover{
+    border-radius: 100px;
+    transform: scale(0.9);
+}
+
+
+.case-item-about-personal1 {
+    /* background-color: #b68cb8; */
+    display: inline-block;
+    background-image: url("../images/nav.svg") ;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: contain;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.case-item-about-personal1:hover {
+    border-radius: 100px;
+    transform: scale(0.9);
+}
+
+.case-item-about-personal2:hover {
+    border-radius: 100px;
+    transform: scale(0.9);
+}
+
+.case-item-about-personal2 {
+    background-color: #0B7189;
+    transition: all 0.2s ease-in-out;
+}
+
+.case-item-about-personal3 {
+    background-color: #62466B;
+    transition: all 0.2s ease-in-out;
+}
+
+.case-item-about-personal3:hover {
+    border-radius: 100px;
+    transform: scale(0.9);
+}
+
+.case-item-about-personal4 {
+    background-color: #3A445D;
+    transition: all 0.2s ease-in-out;
+}
+
+.case-item-about-personal4:hover {
+    border-radius: 100px;
+    transform: scale(0.9);
+}
+
+.case-item-about-personal5 {
+    background-color: #83B5D1;
+    transition: all 0.2s ease-in-out;
+}
+
+.case-item-about-personal5:hover {
+    border-radius: 100px;
+    transform: scale(0.9);
+}
+
+.tag {
+    width: 200px;
+    font-size: 40px;
+    background-image: linear-gradient(to right,#028090,#7CDEDC);
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+
