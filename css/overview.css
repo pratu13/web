@@ -172,7 +172,7 @@ div {
 
 .case-item-about-me3 {
     margin-top: -170px;
-    background-image: url(../images/1.jpeg);
+    background-image: url(../images/2.jpeg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -180,7 +180,7 @@ div {
 
 .case-item-about-me4 {
     margin-top: -170px;
-    background-image: url(../images/2.jpeg);
+    background-image: url(../images/3.jpeg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -188,7 +188,7 @@ div {
 
 
 .case-item-about-me5 {
-    background-image: url(../images/5.jpeg);
+    background-image: url(../images/1.jpeg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -383,7 +383,7 @@ h2 {
     background-color: transparent;
     border: 1px solid white;
     padding: 10px 12px;
-    width: 150px;
+    width: 100px;
     border-radius: 4px;
     text-decoration: none;
     cursor: pointer;
@@ -625,4 +625,8 @@ h2 {
     display: flex;
     flex-direction: row;
     padding-right: 40px;
+}
+
+#button-top-padding {
+    padding-top: 20px;
 }
