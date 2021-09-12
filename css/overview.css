@@ -159,7 +159,7 @@ div {
 .grid-item-work {
     color: #fff;
     margin-top: -150px;
-    margin-bottom: -100px;
+    margin-bottom: -170px;
 }
 
 .case-item-about-me1 {
@@ -271,7 +271,6 @@ div {
     margin: 0 auto 60px;
     width: 80%;
     z-index: 10;
-    text-align: center;
     max-width: 500px;
     line-height: 120%;
     transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
