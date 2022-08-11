@@ -176,6 +176,8 @@ div {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    aspect-ratio: 1.0;
+    
 }
 
 .case-item-about-me4 {
@@ -184,6 +186,7 @@ div {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    aspect-ratio: 1.0;
 }
 
 
@@ -192,6 +195,7 @@ div {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    aspect-ratio: 1.0;
 }
 
 .case-item-about-me1 .grid-item-bg {
@@ -520,6 +524,11 @@ h2 {
 .case-item-about-work2 {
     background-color: #8CABBE;
 }
+
+.case-item-about-work3 {
+    background-color: #8cd4d4;
+}
+
 
 .case-item-about-personal {
     background-color: #C19AB7;
