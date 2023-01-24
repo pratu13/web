@@ -176,7 +176,7 @@ div {
     cursor: pointer;
 }
 
-.experience0, .experience, .experience1, .experience2 {
+.support, .experience0, .experience, .experience1, .experience2, .privacy, .experience3 {
 display: flex;
 width: 1280px;
 max-width: 100vw;
@@ -188,6 +188,7 @@ color: white;
 margin: 0px auto 0;
 }
 
+
 .experience-header-text {
     font-size: 30px;
     line-height: 1.3em;
@@ -195,7 +196,7 @@ margin: 0px auto 0;
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform: translateZ(0);
     font-weight: 800;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -223,6 +224,14 @@ margin: 0px auto 0;
     margin-bottom: 40px;
 }
 
+.experience3 {
+    background-color:#028090;
+    margin: 40px auto;
+}
+
+.links {
+    display: flex;
+}
 .experience0 {
     background-color:#3A445D;
     margin: 40px auto;
@@ -494,7 +503,8 @@ h2 {
     background-color: transparent;
     border: 1px solid white;
     padding: 10px 12px;
-    width: 100px;
+    /* width: 100px; */
+    margin-right: 10px;
     border-radius: 4px;
     text-decoration: none;
     cursor: pointer;
@@ -750,4 +760,98 @@ h2 {
 
 #button-top-padding {
     padding-top: 20px;
+}
+
+
+/* App: Surf Cloud */
+
+form {
+    max-width: 420px;
+    margin: 50px auto;
+}
+
+.feedback-input {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus {
+    border: 2px solid #5A83AF;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    background: #5A83AF;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 500;
+}
+
+[type="submit"]:hover {
+    background: #3A445D;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+h4 {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 2px solid #CC6666;
+    padding: 13px;
+    border-radius: 5px;
+  }
+
+.support {
+    background-color: #83B5D1;
+    margin-top: 100px;
+}
+
+.privacy {
+    background-color:#D585A3;
+    margin-top: 100px;
+}
+
+.privacy-text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    text-align: justify;
+    line-height:  200%;
 }
