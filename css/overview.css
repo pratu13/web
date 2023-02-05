@@ -176,7 +176,7 @@ div {
     cursor: pointer;
 }
 
-.support, .experience0, .experience, .experience1, .experience2, .privacy, .experience3 {
+.support, .experience0, .experience, .experience1, .experience2, .privacy, .experience3, .experience4 {
 display: flex;
 width: 1280px;
 max-width: 100vw;
@@ -226,6 +226,11 @@ margin: 0px auto 0;
 
 .experience3 {
     background-color:#028090;
+    margin: 40px auto;
+}
+
+.experience4 {
+    background-color:#C19AB7;
     margin: 40px auto;
 }
 
