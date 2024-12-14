@@ -1,5 +1,5 @@
 .gradient {
-    background-image: linear-gradient(to bottom,#8acdeaff,#ebd3deff,#ede6f2ff);
+    background-image: linear-gradient(to bottom,bisque,white,#ede6f2ff);
 }
 
 /* nav bar */
@@ -84,6 +84,7 @@ nav a:hover {
     line-height: 0.6em;
     pointer-events: none;
     flex: 1 100%;
+    color: bisque;
 }
 
 .section-header2 {
