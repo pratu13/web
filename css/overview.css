@@ -430,11 +430,11 @@ h2 {
 }
 
 .contact-info {
-    color: #fff;
+    color: #5A83AF;
     padding-right: 55%;
     padding-left: 50px;
     padding-top: 75px;
-    background-color: #6D3B47;
+    /* background-color: #6D3B47; */
     text-align: left;
     position: relative;
     display: flex;
@@ -442,6 +442,12 @@ h2 {
     align-items: flex-start;
     justify-content: flex-start;
     justify-self: flex-start;
+    transition: top 0.3s;
+    background-color:  rgba(255, 255, 255, 0.493);
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.168); Subtle shadow
+    /* border-radius: 30px; */
+
 }
 
 .contact-card a, .contact-card a:hover {
