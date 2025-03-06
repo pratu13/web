@@ -136,7 +136,7 @@ div {
     top: 0;
 }
 
-.transistion {
+.transition {
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
@@ -451,7 +451,7 @@ h2 {
     transition: top 0.3s;
     background-color:  rgba(255, 255, 255, 0.493);
     backdrop-filter: blur(10px); /* Blur effect */
-    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.168); Subtle shadow
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.168);
     /* border-radius: 30px; */
 
 }
@@ -524,7 +524,7 @@ h2 {
     animation: text-animation 2s 1;
 }
 
-.sectionheader-animation {
+.section-header-animation {
     animation: text-animation1 2s 1;
 }
 
